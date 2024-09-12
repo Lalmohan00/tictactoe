@@ -1,11 +1,13 @@
-
-import './App.css'
+import './styles.scss'
+import Board from './components/Board'
 
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+    <div className="app">
+      <Board/>
+    </div>
     </>
   )
 }
